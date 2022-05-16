@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Invoice Generator</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="title">
+      <h1>Invoice Generator</h1>
+      <p id="wishing-para"></p>
+    </div>
+    <div class="btn-wrapper">
+      <button id="wash-btn">Wash Car: $10</button>
+      <button id="mow-btn">Mow Lawn: $20</button>
+      <button id="pull-weed-btn">Pull Weeds: $30</button>
+    </div>
+
+    <div class="service-wrapper">
+      <div class="service-title">
+        <div>TASK</div>
+        <div>TOTAL</div>
+      </div>
+      <div id="service-display" class="service-display">
+        <!-- <div class="service-name">Wash Car</div>
+          <button class="remove-item" onclick="">Remove</button>
+          <div class="service-value"><span>$</span>10</div> -->
+      </div>
+    </div>
+    <div class="total-wrapper">
+      <div class="total-display-title">
+        <div>NOTES</div>
+        <div>TOTAL AMOUNT</div>
+      </div>
+      <div id="total-display" class="total-display">
+        <!-- <div class="payment-message">We accept cash, credit card, or PayPal</div>
+          <div class="total-value">$60</div> -->
+      </div>
+
+      <button id="send-btn" class="send-btn">
+        <img src="./images/Mail.png" alt="envelope icon" class="mail-icon" />
+        Send invoice
+      </button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
